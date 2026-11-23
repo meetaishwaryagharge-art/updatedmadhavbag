@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Heart &amp; Lifestyle Health Check | Dr. Smita Karpe – Madhavbaug Clinic, Airoli</title>
+<meta name="description" content="Free heart and lifestyle health check by Dr. Smita Karpe, Madhavbaug Clinic, Sector 3, Airoli, Navi Mumbai. Ayurvedic cardiac care, diabetes management and Panchakarma.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+:root{
+  --bg:#f3f6f4; --surface:#ffffff; --ink:#16302b; --muted:#5b716c; --line:#d8e3df;
+  --accent:#137566; --accent-soft:#dcefe9; --accent-ink:#ffffff;
+  --warm:#d9792b; --warm-soft:#fdf0e2;
+  --low:#2f9a5c; --mod:#d29a12; --high:#de6a28; --vhigh:#c93838; --track:#e3ece9;
+  --wa:#1d9e52; --wa-ink:#ffffff; --flag-bg:#fdeae8; --flag-ink:#8f1f1f;
+  --f-display:"Poppins","Noto Sans Devanagari","Nirmala UI","Segoe UI",system-ui,sans-serif;
+  --f-body:"Inter","Noto Sans Devanagari","Nirmala UI","Segoe UI",system-ui,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0d1816; --surface:#14231f; --ink:#e4f0ec; --muted:#97aea8; --line:#263b36;
+  --accent:#4cc0aa; --accent-soft:#1a3630; --accent-ink:#04201a;
+  --warm:#f0a453; --warm-soft:#33261a;
+  --low:#52c47f; --mod:#e6b53c; --high:#f08b52; --vhigh:#ee6767; --track:#21332f;
+  --wa:#2bb565; --wa-ink:#03200f; --flag-bg:#3b1a1a; --flag-ink:#ffb6af; color-scheme:dark}}
+*{box-sizing:border-box}
+html{scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.55;padding-bottom:env(safe-area-inset-bottom,0px)}
+h1,h2,h3{font-family:var(--f-display);font-weight:600;line-height:1.25;margin:0;text-wrap:balance}
+h1{font-size:clamp(30px,7vw,44px)} h2{font-size:clamp(24px,5.5vw,30px)} h3{font-size:19px}
+p{margin:0} .muted{color:var(--muted)}
+.bar{position:sticky;top:0;z-index:5;background:var(--surface);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+.bar-in,.main{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.bar-in{display:flex;align-items:center;gap:10px;padding-block:10px;flex-wrap:wrap}
+.brand{flex:1;min-width:150px;font-size:13px;color:var(--muted);line-height:1.25;text-decoration:none;display:flex;align-items:center;gap:10px}
+.brand b{display:block;color:var(--ink);font-family:var(--f-display);font-size:16px}
+.links{display:flex;gap:4px;flex-wrap:wrap}
+.links a,.links button{color:var(--ink);text-decoration:none;font:600 14.5px var(--f-body);padding:6px 10px;border-radius:999px;border:0;background:transparent;cursor:pointer}
+.links a[aria-current="page"]{background:var(--accent-soft);color:var(--accent)}
+.lang{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.lang button{border:0;background:transparent;color:var(--muted);font:600 14px var(--f-body);padding:5px 12px;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.main{padding-block:22px 40px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px}
+.stack{display:grid;gap:16px}
+.hero{display:grid;gap:14px}
+.facts{display:flex;flex-wrap:wrap;gap:8px}
+.facts span{background:var(--warm-soft);border-radius:999px;padding:5px 12px;font-size:14.5px;font-weight:500;display:inline-flex;align-items:center;gap:7px}
+.facts .bi{color:var(--warm)}
+.checks{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:0;padding:0;list-style:none}
+.checks li{background:var(--accent-soft);border-radius:12px;padding:10px 12px;font-weight:600;font-size:15px;display:flex;align-items:center;gap:10px}
+.checks li .bi{color:var(--accent);font-size:18px}
+.note{font-size:14.5px;color:var(--muted)}
+button{font-family:var(--f-body)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:700;font-size:18px;border-radius:14px;padding:12px 22px;cursor:pointer;border:2px solid var(--accent);background:transparent;color:var(--accent);text-decoration:none;min-height:50px}
+.btn.solid{background:var(--accent);color:var(--accent-ink)}
+.btn.wa{background:var(--wa);border-color:var(--wa);color:var(--wa-ink);width:100%}
+.btn.small{font-size:14px;min-height:36px;padding:5px 12px;border-radius:10px;border-width:1.5px}
+.btn.danger{border-color:var(--vhigh);color:var(--vhigh)}
+.btn:focus-visible,.opt:focus-visible,.lang button:focus-visible,a:focus-visible,.links button:focus-visible,.in:focus-visible{outline:3px solid var(--warm);outline-offset:2px}
+.nav{display:flex;gap:12px;justify-content:space-between;margin-top:8px}
+.nav .btn.solid{flex:1}
+.prog{display:grid;gap:8px}
+.prog-top{display:flex;justify-content:space-between;font-size:14px;color:var(--muted);font-weight:600}
+.dots{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.dots i{height:6px;border-radius:3px;background:var(--track)}
+.dots i.on{background:var(--accent)}
+.q{display:grid;gap:8px;padding-block:14px;border-top:1px solid var(--line);min-width:0}
+.q:first-child{border-top:0;padding-top:0}
+.q .t{font-weight:600;line-height:1.4}
+.in{width:100%;font:500 18px var(--f-body);padding:11px 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);min-height:48px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opt{font:500 16px var(--f-body);padding:9px 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;min-height:44px;text-align:left}
+.opt[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:700}
+.err{background:var(--flag-bg);color:var(--flag-ink);border-radius:12px;padding:10px 14px;font-weight:600;font-size:15px;display:flex;gap:10px;align-items:flex-start}
+.err .bi{flex:none;margin-top:2px}
+.bmi{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.bmi div{background:var(--accent-soft);border-radius:12px;padding:10px 12px;font-size:14.5px}
+.bmi b{display:block;font-family:var(--f-display);font-size:24px;line-height:1.1}
+.gauge-row{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.gauge{--p:0;--c:var(--low);width:132px;height:132px;border-radius:50%;background:conic-gradient(var(--c) calc(var(--p)*1%),var(--track) 0);display:grid;place-items:center;flex:none;position:relative}
+.gauge::before{content:"";position:absolute;inset:13px;border-radius:50%;background:var(--surface)}
+.gauge div{position:relative;text-align:center;line-height:1}
+.gauge b{font-family:var(--f-display);font-size:38px;display:block}
+.gauge small{color:var(--muted);font-size:13px}
+.lvl{display:inline-block;border-radius:999px;padding:3px 12px;font-weight:700;font-size:14.5px;color:#fff;background:var(--c,var(--low))}
+.low{--c:var(--low)} .mod{--c:var(--mod)} .high{--c:var(--high)} .vhigh{--c:var(--vhigh)}
+.mod.lvl{color:#2a1d00}
+.brow{display:grid;gap:4px;padding-block:8px}
+.brow-top{display:flex;justify-content:space-between;gap:10px;font-weight:600;font-size:15.5px}
+.track{height:10px;border-radius:5px;background:var(--track);overflow:hidden}
+.fill{height:100%;border-radius:5px;background:var(--c)}
+.flag{background:var(--flag-bg);color:var(--flag-ink);border-radius:14px;padding:14px 16px;font-weight:600;display:flex;gap:12px;align-items:flex-start}
+.flag .bi{font-size:20px;flex:none;margin-top:2px}
+.tips{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.tips li{border-left:4px solid var(--c);padding:4px 0 4px 12px}
+.tips b{display:block;font-size:15px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:14px 16px}
+.stat b{display:block;font-family:var(--f-display);font-size:32px;line-height:1.1}
+.stat span{font-size:14px;color:var(--muted);font-weight:600}
+.tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.tools .in{flex:1;min-width:160px;min-height:40px;font-size:16px;padding:6px 12px}
+.wrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:15px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{font-size:13.5px;color:var(--muted);font-weight:700}
+tr:last-child td{border-bottom:0}
+.acts{display:flex;gap:6px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.5);display:grid;place-items:center;padding:16px;z-index:20}
+.sheet{background:var(--surface);border-radius:18px;padding:22px;max-width:520px;width:100%;max-height:90vh;overflow:auto;display:grid;gap:12px}
+.login{max-width:420px;margin:30px auto 0}
+.pw{display:flex;gap:8px}
+.bi{line-height:1;vertical-align:-.125em}
+.logo{width:40px;height:40px;border-radius:12px;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-size:21px;flex:none}
+.hd{display:flex;align-items:center;gap:10px}
+.hd .bi{color:var(--accent)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--accent);font-weight:600;font-size:14.5px}
+.ico{display:inline-grid;place-items:center;width:40px;height:40px;border-radius:12px;background:var(--accent-soft);color:var(--accent);font-size:19px;flex:none}
+.info{display:grid;gap:14px;margin:0;padding:0;list-style:none}
+.info li{display:flex;gap:12px;align-items:flex-start;font-size:16px}
+.info .lbl{display:block;font-size:13px;color:var(--muted);font-weight:600;margin-bottom:1px}
+.info a{color:var(--accent);font-weight:600;text-decoration:none}
+.info a:hover{text-decoration:underline}
+.stars{color:var(--mod);letter-spacing:2px;margin-right:6px}
+.doc{display:flex;gap:14px;align-items:center}
+.avatar{width:64px;height:64px;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-size:30px;flex:none}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.tags li{background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:4px 12px;font-weight:600;font-size:14px}
+.chips{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:8px;margin:0;padding:0;list-style:none}
+.chips li{display:flex;gap:10px;align-items:center;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:10px 12px;font-weight:500;font-size:15px}
+.chips .bi{color:var(--accent);font-size:18px;flex:none}
+.btns{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.btns .btn{font-size:16px}
+.stat .bi{display:block;color:var(--accent);font-size:20px;margin-bottom:6px}
+.foot{border-top:1px solid var(--line);background:var(--surface);padding:24px max(16px,env(safe-area-inset-left,0px)) calc(24px + env(safe-area-inset-bottom,0px))}
+.foot-in{max-width:760px;margin:0 auto;display:grid;gap:8px;font-size:14.5px;color:var(--muted)}
+.foot-in b{color:var(--ink);font-family:var(--f-display);font-size:16px}
+.foot-in a{color:var(--accent);font-weight:600;text-decoration:none}
+.foot-in .bi{color:var(--accent);margin-right:6px}
+@media print{.bar,.nav,.noprint,.btn{display:none!important}body{background:#fff}.card{border-color:#ccc}}
+@media (prefers-reduced-motion:no-preference){.fill{transition:width .5s ease}}
+</style>
+</head>
+<body>
+<div id="bar" class="bar"></div>
+<main id="app" class="main"></main>
+<footer id="foot" class="foot"></footer>
+
+<script>
+/* ============ EDIT THESE (clinic details) ============ */
+const CONFIG = {
+  clinic: { en: "Dr. Smita Karpe – Madhavbaug Clinic", mr: "डॉ. स्मिता कारपे – माधवबाग क्लिनिक" },
+  whatsapp: "919022676869",          // WhatsApp number: country code + number, no + or spaces
+  phones: [                          // shown on the page and used for "Call" buttons
+    { show: "+91 90226 76869", tel: "+919022676869" },
+    { show: "+91 91679 10809", tel: "+919167910809" }
+  ],
+  mapQuery: "Madhavbaug Clinic, D/155-156, Behind Bhoskar Bhavan, Sector 3, Airoli, Navi Mumbai 400708",
+  api: "https://script.google.com/macros/s/AKfycbx60-sA12i_oleTCxmORqGj8KTeK0gbOO9HecVRSKfZsBUwRiIw6Vna9ttiQQMGQUelOg/exec",                           // Google Apps Script web app URL (ends with /exec). Empty = demo mode: records stay in this browser and the user/hash below are used.
+  user: "admin",                     // dashboard username
+  hash: "684fb3ed347d4cdcbfe051d3f63aa7615604ac1d4e649bd1ddf645c9a16b59ac" // SHA-256 of the dashboard password
+};
+/* ====================================================== */
+
+const KEY = "dsk_hc_records";
+const LV = { en: ["Low risk","Moderate risk","High risk","Very high risk"], mr: ["कमी धोका","मध्यम धोका","जास्त धोका","खूप जास्त धोका"] };
+const LK = ["low","mod","high","vhigh"];
+
+const T = {
+ en:{ cloud:{
+  priv:"This is a screening tool, not a diagnosis. Your answers are sent securely to the clinic so the team can follow up with you. They are not shared with anyone else.",
+  consent:"By tapping “See my report” you agree to share your answers with the clinic so the team can follow up.",
+  loading:"Loading records…", loadErr:"Could not load records. Check your internet connection and try again.", refresh:"Refresh",
+  stored:"Records are stored securely in the clinic’s Google Sheet.",
+  none:"No records yet. Results will appear here when patients complete the health check.",
+  loginNet:"Could not reach the server. Please try again."},
+ clin:{
+  tag:"Ayurvedic cardiac care, diabetes management and Panchakarma",
+  docName:"Dr. Smita Ashok Karpe", docRole:"Ayurvedic cardiac care, diabetes management and Panchakarma therapies",
+  creds:["B.A.M.S.","PGDCRP","Fellowship in Preventive Cardiology"],
+  expL:"Experience", yrs:"17+ years of clinical experience", regL:"Registration No.", langsL:"Languages", langs:"Marathi, Hindi, English",
+  condH:"Conditions we manage",
+  conds:["Heart disease and non-invasive cardiac care","Diabetes","Hypertension","Obesity","Thyroid disorders","PCOD / PCOS","Joint and arthritis issues"],
+  treatH:"Treatments and diagnostics",
+  treats:["Panchakarma detox therapies","Personalised diet plans","Yoga and exercise plans","ECG","Stress test (TMT)","Echocardiography","Blood sugar and HbA1c monitoring","Lipid profile monitoring","BP and BMI assessment"],
+  visitH:"Visit the clinic", addrL:"Address", addr:"D/155-156, Behind Bhoskar Bhavan, Sector 3, Airoli, Navi Mumbai, Maharashtra 400708",
+  phoneL:"Phone", hoursL:"Clinic hours", hours:"Tuesday to Sunday, 10:00 AM – 7:00 PM", hoursNote:"Some listings show Thursday as closed. Please call ahead to confirm.",
+  ratingL:"Patient rating", reviews:"316 reviews",
+  amenH:"Amenities", amen:["Women-owned clinic","Gender-neutral restroom","Nursing room","Free street parking","NFC mobile payments"],
+  call:"Call the clinic", directions:"Get directions"},
+ sub:"Health Check", home:"Home", audit:"Health check", login:"Clinic login", dash:"Dashboard", logout:"Log out",
+  title:"Heart & Lifestyle Health Check",
+  heroP:"Answer four short steps (about 3 minutes) to see your heart and lifestyle risk, and get simple tips you can start today.",
+  f1:"Free", f2:"3 minutes", f3:"BMI and waist", f4:"English / मराठी",
+  covers:"What we look at", start:"Start the check",
+  privacy:"This is a screening tool, not a diagnosis. Your answers stay on this device unless you choose to message the clinic.",
+  clinicHead:"Talk to the clinic", chatWa:"Chat with the clinic on WhatsApp",
+  step:"Step", of:"of", s1:"About you", s2:"Body measurements", s3:"Daily habits", s4:"Health history",
+  next:"Next", back:"Back", seeReport:"See my report",
+  name:"Your name", age:"Age (years)", sex:"Sex", female:"Female", male:"Male", phone:"Mobile number (optional)",
+  height:"Height (cm)", weight:"Weight (kg)", waist:"Waist around the navel (cm)",
+  bmi:"Your BMI", whtr:"Waist-to-height", whtrNote:"aim below 0.5",
+  bmiC:["Underweight","Healthy range","Overweight","Obese"],
+  e1:"Enter your name, an age between 10 and 100, and choose your sex.",
+  e2:"Enter height (100–220 cm), weight (25–250 kg) and waist (40–200 cm).",
+  e3:"Please answer every question on this page.",
+  e4:"Please answer every question. Choose “None” if nothing applies.",
+  report:"Your report", overall:"Overall risk score", improve:"Where to improve", good:"Everything looks good here. Keep it up.",
+  flagT:"Chest pain or pressure can be serious. Please see a doctor today. If the pain is severe or spreads to your arm or jaw, go to the nearest emergency room now.",
+  disc:"This check is for awareness only and is not a medical diagnosis. Please consult a doctor.",
+  restart:"Start again", print:"Print or save as PDF",
+  loginH:"Clinic login", user:"Username", pass:"Password", show:"Show", hide:"Hide", doLogin:"Log in",
+  loginErr:"Wrong username or password.", loginLock:"Too many attempts. Wait 30 seconds and try again.", loginSec:"Login needs a secure (https) page.",
+  loginNote:"For clinic staff only.",
+  dashH:"Dashboard", total:"Total checks", hi:"High or very high", avg:"Average score", avgBmi:"Average BMI",
+  levels:"Risk levels", recent:"Recent checks", search:"Search name or phone", all:"All levels",
+  exp:"Export CSV", sample:"Load sample data", clear:"Clear all", dDate:"Date", dName:"Name", dAge:"Age", dScore:"Score", dLevel:"Level", dAct:"Actions",
+  none:"No records yet. Complete a health check or load sample data to preview this dashboard.", view:"View", follow:"Follow up", del:"Delete",
+  confDel:"Delete this record?", confClear:"Clear all records on this device?",
+  stored:"Records shown here are stored in this browser only.", sampleTag:"sample", close:"Close", bodyScore:"Scores by area",
+  cats:{body:"Weight & waist",activity:"Physical activity",diet:"Food habits",habits:"Tobacco & alcohol",mind:"Sleep & stress",medical:"Medical history"},
+  tips:{
+   body:"Aim to lose 5–7% of body weight over 6 months. Keep waist below 90 cm (men) or 80 cm (women).",
+   activity:"Start with a 30-minute brisk walk, 5 days a week.",
+   diet:"Fill half your plate with vegetables. Cut down fried food, sweets and packaged snacks.",
+   habits:"Stopping tobacco is the biggest single step for your heart. Ask us about quitting support.",
+   mind:"Keep a fixed sleep time, avoid screens late at night and try 10 minutes of slow breathing daily.",
+   medical:"Check blood pressure, sugar and cholesterol regularly and take medicines as advised."},
+  wa:(c,r)=>`Hello ${c}, I completed the Heart & Lifestyle Health Check.\nName: ${r.name}\nAge: ${r.age}\nBMI: ${r.bmi}\nRisk score: ${r.score}/100 (${LV.en[r.level]})\nPlease advise me on the next step.`,
+  waFollow:(c,r)=>`Hello ${r.name}, this is ${c}. We saw your Heart & Lifestyle Health Check result and would like to help you with the next step.`,
+  q:{
+   activity:{t:"Days per week you walk or exercise for 30+ minutes",o:["Rarely or never","1–2 days","3–4 days","5 or more days"]},
+   veg:{t:"Fruits and vegetables in your daily meals",o:["Every day","Some days","Rarely"]},
+   fried:{t:"Fried, sweet or packaged food",o:["Rarely","2–3 times a week","Almost daily"]},
+   tobacco:{t:"Smoking or tobacco (bidi, cigarette, gutkha, mishri)",o:["Never","I quit","Currently"]},
+   alcohol:{t:"Alcohol",o:["Never","Occasionally","Regularly"]},
+   sleep:{t:"Average sleep per night",o:["7–8 hours","5–6 or 9+ hours","Under 5 hours"]},
+   stress:{t:"Stress in daily life",o:["Low","Moderate","High"]},
+   cond:{t:"Conditions already diagnosed",o:["High blood pressure","Diabetes","High cholesterol","Thyroid problem","None"]},
+   family:{t:"Heart disease, diabetes or stroke in parents or siblings",o:["No","One relative","Two or more"]},
+   sym:{t:"Symptoms in the last month",o:["Chest pain or pressure","Breathless on light effort","Palpitations","Dizziness or fainting","Swollen feet","None"]}
+  }},
+ mr:{ cloud:{
+  priv:"हे केवळ प्राथमिक तपासणी साधन आहे, निदान नाही. तुमची उत्तरे क्लिनिकला सुरक्षितपणे पाठवली जातात, जेणेकरून क्लिनिकची टीम तुमच्याशी संपर्क साधू शकेल. ती इतर कोणाशीही शेअर केली जात नाहीत.",
+  consent:"“माझा अहवाल पहा” दाबल्यास तुम्ही तुमची उत्तरे क्लिनिकसोबत शेअर करण्यास संमती देता, जेणेकरून टीम तुमच्याशी संपर्क साधू शकेल.",
+  loading:"नोंदी लोड होत आहेत…", loadErr:"नोंदी लोड करता आल्या नाहीत. इंटरनेट तपासा आणि पुन्हा प्रयत्न करा.", refresh:"रिफ्रेश",
+  stored:"येथे दिसणाऱ्या नोंदी क्लिनिकच्या Google Sheet मध्ये सुरक्षितपणे साठवल्या जातात.",
+  none:"अजून नोंदी नाहीत. रुग्णांनी आरोग्य तपासणी पूर्ण केल्यावर नोंदी येथे दिसतील.",
+  loginNet:"सर्व्हरशी संपर्क होऊ शकला नाही. कृपया पुन्हा प्रयत्न करा."},
+ clin:{
+  tag:"आयुर्वेदिक हृदयरोग उपचार, मधुमेह व्यवस्थापन व पंचकर्म",
+  docName:"डॉ. स्मिता अशोक कारपे", docRole:"आयुर्वेदिक हृदयरोग उपचार, मधुमेह व्यवस्थापन व पंचकर्म उपचार",
+  creds:["B.A.M.S.","PGDCRP","प्रिव्हेंटिव्ह कार्डिओलॉजी फेलोशिप"],
+  expL:"अनुभव", yrs:"१७+ वर्षांचा वैद्यकीय अनुभव", regL:"नोंदणी क्र.", langsL:"भाषा", langs:"मराठी, हिंदी, इंग्रजी",
+  condH:"आम्ही उपचार करत असलेले आजार",
+  conds:["हृदयरोग व शस्त्रक्रियाविरहित हृदय उपचार","मधुमेह","उच्च रक्तदाब","स्थूलता","थायरॉईड विकार","PCOD / PCOS","सांधेदुखी व संधिवात"],
+  treatH:"उपचार व तपासण्या",
+  treats:["पंचकर्म शुद्धीकरण उपचार","वैयक्तिक आहार योजना","योग व व्यायाम योजना","ECG","स्ट्रेस टेस्ट (TMT)","इकोकार्डिओग्राफी","रक्तातील साखर व HbA1c तपासणी","लिपिड प्रोफाइल तपासणी","रक्तदाब व BMI मोजमाप"],
+  visitH:"क्लिनिकला भेट द्या", addrL:"पत्ता", addr:"D/155-156, भोसकर भवनच्या मागे, सेक्टर ३, ऐरोली, नवी मुंबई, महाराष्ट्र ४००७०८",
+  phoneL:"फोन", hoursL:"क्लिनिकची वेळ", hours:"मंगळवार ते रविवार, सकाळी १०:०० ते सायंकाळी ७:००", hoursNote:"काही यादींमध्ये गुरुवार बंद असल्याचे दिसते. कृपया येण्यापूर्वी फोन करून खात्री करा.",
+  ratingL:"रुग्णांचे मूल्यांकन", reviews:"३१६ परीक्षणे",
+  amenH:"सुविधा", amen:["महिला-मालकीचे क्लिनिक","लिंग-तटस्थ स्वच्छतागृह","स्तनदा माता कक्ष","मोफत रस्त्यावर पार्किंग","NFC मोबाईल पेमेंट"],
+  call:"क्लिनिकला फोन करा", directions:"मार्ग पहा"},
+ sub:"आरोग्य तपासणी", home:"मुख्यपृष्ठ", audit:"आरोग्य तपासणी", login:"क्लिनिक लॉगिन", dash:"डॅशबोर्ड", logout:"लॉगआउट",
+  title:"हृदय व जीवनशैली आरोग्य तपासणी",
+  heroP:"चार छोट्या टप्प्यांत (सुमारे ३ मिनिटे) उत्तरे द्या आणि तुमच्या हृदयाचा व जीवनशैलीचा धोका पाहा. आजपासून सुरू करता येतील असे सोपे उपायही मिळतील.",
+  f1:"मोफत", f2:"३ मिनिटे", f3:"BMI व कंबर", f4:"English / मराठी",
+  covers:"आम्ही काय तपासतो", start:"तपासणी सुरू करा",
+  privacy:"हे केवळ प्राथमिक तपासणी साधन आहे, निदान नाही. तुम्ही क्लिनिकला संदेश पाठवेपर्यंत तुमची उत्तरे फक्त या डिव्हाइसवरच राहतात.",
+  clinicHead:"क्लिनिकशी बोला", chatWa:"क्लिनिकशी WhatsApp वर बोला",
+  step:"टप्पा", of:"पैकी", s1:"तुमच्याबद्दल", s2:"शरीराची मोजमापे", s3:"रोजच्या सवयी", s4:"आरोग्याचा इतिहास",
+  next:"पुढे", back:"मागे", seeReport:"माझा अहवाल पहा",
+  name:"तुमचे नाव", age:"वय (वर्षे)", sex:"लिंग", female:"स्त्री", male:"पुरुष", phone:"मोबाईल क्रमांक (ऐच्छिक)",
+  height:"उंची (सेमी)", weight:"वजन (किलो)", waist:"नाभीजवळील कंबरेचा घेर (सेमी)",
+  bmi:"तुमचा BMI", whtr:"कंबर-उंची गुणोत्तर", whtrNote:"०.५ पेक्षा कमी असावे",
+  bmiC:["कमी वजन","निरोगी श्रेणी","जास्त वजन","स्थूलता"],
+  e1:"नाव लिहा, १० ते १०० दरम्यान वय लिहा आणि लिंग निवडा.",
+  e2:"उंची (१००–२२० सेमी), वजन (२५–२५० किलो) आणि कंबर (४०–२०० सेमी) लिहा.",
+  e3:"कृपया या पानावरील सर्व प्रश्नांची उत्तरे द्या.",
+  e4:"कृपया सर्व प्रश्नांची उत्तरे द्या. काहीही लागू नसेल तर “काहीही नाही” निवडा.",
+  report:"तुमचा अहवाल", overall:"एकूण धोका गुण", improve:"कुठे सुधारणा करावी", good:"येथे सर्व काही चांगले आहे. असेच ठेवा.",
+  flagT:"छातीत दुखणे किंवा दाब गंभीर असू शकतो. कृपया आजच डॉक्टरांना दाखवा. वेदना तीव्र असतील किंवा हात/जबड्यात पसरत असतील तर लगेच जवळच्या आपत्कालीन विभागात जा.",
+  disc:"ही तपासणी केवळ जागरूकतेसाठी आहे, वैद्यकीय निदान नाही. कृपया डॉक्टरांचा सल्ला घ्या.",
+  restart:"पुन्हा सुरू करा", print:"प्रिंट करा किंवा PDF म्हणून जतन करा",
+  loginH:"क्लिनिक लॉगिन", user:"वापरकर्तानाव", pass:"पासवर्ड", show:"दाखवा", hide:"लपवा", doLogin:"लॉगिन करा",
+  loginErr:"वापरकर्तानाव किंवा पासवर्ड चुकीचा आहे.", loginLock:"खूप प्रयत्न झाले. ३० सेकंद थांबून पुन्हा प्रयत्न करा.", loginSec:"लॉगिनसाठी सुरक्षित (https) पृष्ठ आवश्यक आहे.",
+  loginNote:"फक्त क्लिनिक कर्मचाऱ्यांसाठी.",
+  dashH:"डॅशबोर्ड", total:"एकूण तपासण्या", hi:"जास्त किंवा खूप जास्त धोका", avg:"सरासरी गुण", avgBmi:"सरासरी BMI",
+  levels:"धोक्याचे स्तर", recent:"अलीकडील तपासण्या", search:"नाव किंवा फोन शोधा", all:"सर्व स्तर",
+  exp:"CSV डाउनलोड", sample:"नमुना माहिती भरा", clear:"सर्व पुसा", dDate:"तारीख", dName:"नाव", dAge:"वय", dScore:"गुण", dLevel:"स्तर", dAct:"कृती",
+  none:"अजून नोंदी नाहीत. आरोग्य तपासणी पूर्ण करा किंवा हा डॅशबोर्ड पाहण्यासाठी नमुना माहिती भरा.", view:"पाहा", follow:"संपर्क करा", del:"हटवा",
+  confDel:"ही नोंद हटवायची?", confClear:"या डिव्हाइसवरील सर्व नोंदी पुसायच्या?",
+  stored:"येथे दिसणाऱ्या नोंदी फक्त या ब्राउझरमध्ये साठवल्या आहेत.", sampleTag:"नमुना", close:"बंद करा", bodyScore:"विभागानुसार गुण",
+  cats:{body:"वजन व कंबर",activity:"शारीरिक हालचाल",diet:"आहाराच्या सवयी",habits:"तंबाखू व मद्य",mind:"झोप व ताण",medical:"वैद्यकीय इतिहास"},
+  tips:{
+   body:"६ महिन्यांत शरीराच्या वजनाच्या ५–७% कमी करण्याचे ध्येय ठेवा. कंबर पुरुषांमध्ये ९० सेमी व स्त्रियांमध्ये ८० सेमीपेक्षा कमी ठेवा.",
+   activity:"आठवड्यातून ५ दिवस ३० मिनिटे जोरात चालण्यापासून सुरुवात करा.",
+   diet:"ताटाचा अर्धा भाग भाज्यांनी भरा. तळलेले, गोड व पॅकेटमधील पदार्थ कमी करा.",
+   habits:"तंबाखू सोडणे हे हृदयासाठी सर्वात मोठे पाऊल आहे. सोडण्यासाठी मदतीबद्दल आम्हाला विचारा.",
+   mind:"झोपेची वेळ ठरवा, रात्री उशिरा स्क्रीन टाळा आणि रोज १० मिनिटे संथ श्वसन करा.",
+   medical:"रक्तदाब, साखर व कोलेस्टेरॉल नियमित तपासा आणि सांगितल्याप्रमाणे औषधे घ्या."},
+  wa:(c,r)=>`नमस्कार ${c}, मी हृदय व जीवनशैली आरोग्य तपासणी पूर्ण केली.\nनाव: ${r.name}\nवय: ${r.age}\nBMI: ${r.bmi}\nधोका गुण: ${r.score}/100 (${LV.mr[r.level]})\nकृपया पुढील पायरी सांगा.`,
+  waFollow:(c,r)=>`नमस्कार ${r.name}, मी ${c} कडून बोलत आहे. तुमच्या हृदय व जीवनशैली आरोग्य तपासणीचा निकाल पाहिला असून पुढील पायरीसाठी आम्हाला मदत करायला आवडेल.`,
+  q:{
+   activity:{t:"आठवड्यातून किती दिवस ३० मिनिटे किंवा जास्त चालता / व्यायाम करता?",o:["क्वचित किंवा कधीच नाही","१–२ दिवस","३–४ दिवस","५ किंवा जास्त दिवस"]},
+   veg:{t:"रोजच्या जेवणात फळे व भाज्या",o:["रोज","काही दिवस","क्वचित"]},
+   fried:{t:"तळलेले, गोड किंवा पॅकेटमधील पदार्थ",o:["क्वचित","आठवड्यात २–३ वेळा","जवळजवळ रोज"]},
+   tobacco:{t:"धूम्रपान किंवा तंबाखू (बिडी, सिगारेट, गुटखा, मिश्री)",o:["कधीच नाही","सोडले आहे","सध्या सेवन करतो/करते"]},
+   alcohol:{t:"मद्यपान",o:["कधीच नाही","क्वचित","नियमित"]},
+   sleep:{t:"रात्री सरासरी झोप",o:["७–८ तास","५–६ किंवा ९+ तास","५ तासांपेक्षा कमी"]},
+   stress:{t:"रोजच्या जीवनातील ताणतणाव",o:["कमी","मध्यम","जास्त"]},
+   cond:{t:"आधीपासून निदान झालेले आजार",o:["उच्च रक्तदाब","मधुमेह","जास्त कोलेस्टेरॉल","थायरॉईडचा त्रास","काहीही नाही"]},
+   family:{t:"आई-वडील किंवा भावंडांमध्ये हृदयविकार, मधुमेह किंवा पक्षाघात",o:["नाही","एका नातेवाईकाला","दोन किंवा अधिकांना"]},
+   sym:{t:"गेल्या महिन्यातील लक्षणे",o:["छातीत दुखणे किंवा दाब","थोड्या श्रमातही धाप लागणे","छातीत धडधड","चक्कर येणे किंवा बेशुद्ध होणे","पायांना सूज","काहीही नाही"]}
+  }}
+};
+
+/* ---------- state & storage ---------- */
+const S = { lang:"en", view:"home", step:0, a:{cond:[],sym:[]}, err:"", rec:null, filter:"all", q:"", modal:null, fails:0, lockUntil:0, loginErr:"", records:[], loading:false, loadErr:false };
+try{ const l=localStorage.getItem("dsk_lang"); if(l==="mr"||l==="en") S.lang=l; }catch(e){}
+const tt = () => T[S.lang];
+const esc = s => String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function load(){ try{ return JSON.parse(localStorage.getItem(KEY)||"[]"); }catch(e){ return []; } }
+function save(r){ try{ localStorage.setItem(KEY,JSON.stringify(r.slice(0,500))); }catch(e){} }
+const API = () => (CONFIG.api||"").trim();
+const tok = () => { try{ return sessionStorage.getItem("dsk_tok")||""; }catch(e){ return ""; } };
+const authed = () => { try{ return API() ? !!tok() : sessionStorage.getItem("dsk_auth")==="1"; }catch(e){ return false; } };
+const getAll = () => API() ? S.records : load();
+
+/* ---------- Google Apps Script backend ---------- */
+async function api(action,data){
+  // text/plain keeps this a "simple" request, so the browser sends no CORS preflight
+  const res = await fetch(CONFIG.api,{ method:"POST", body:JSON.stringify({action,...data}) });
+  return res.json();
+}
+async function remote(action,data){
+  const r = await api(action,{token:tok(),...data});
+  if(!r.ok && r.error==="auth"){ try{ sessionStorage.removeItem("dsk_tok"); }catch(e){} location.hash="login"; route(); throw new Error("auth"); }
+  if(!r.ok) throw new Error(r.error||"fail");
+  return r;
+}
+async function loadRemote(){
+  if(S.loading) return;
+  S.loading=true; S.loadErr=false; render();
+  try{ S.records=(await remote("list",{})).records; }catch(e){ if(e.message!=="auth") S.loadErr=true; }
+  S.loading=false; if(S.view==="dashboard") render();
+}
+/* patient results are queued locally until the server confirms them, so nothing is lost if the network drops */
+const QKEY="dsk_hc_queue";
+function qLoad(){ try{ return JSON.parse(localStorage.getItem(QKEY)||"[]"); }catch(e){ return []; } }
+function qSave(a){ try{ localStorage.setItem(QKEY,JSON.stringify(a.slice(-50))); }catch(e){} }
+let flushing=false;
+async function flushQueue(){
+  if(flushing||!API()) return; flushing=true;
+  try{
+    for(const rec of qLoad()){
+      const r=await api("save",{rec});
+      if(!r.ok && r.error!=="invalid") break;
+      qSave(qLoad().filter(x=>x.id!==rec.id));
+    }
+  }catch(e){}
+  flushing=false;
+}
+function submitRemote(rec){ qSave([...qLoad(),rec]); flushQueue(); }
+window.addEventListener("online",flushQueue);
+const waLink = (num,text) => `https://wa.me/${num}?text=${encodeURIComponent(text)}`;
+const clinic = () => CONFIG.clinic[S.lang];
+const ic = n => `<i class="bi bi-${n}" aria-hidden="true"></i>`;
+const ico = n => `<span class="ico">${ic(n)}</span>`;
+const CAT_IC = {body:"rulers",activity:"activity",diet:"egg-fried",habits:"lungs",mind:"moon-stars",medical:"clipboard2-pulse"};
+const STEP_IC = ["person-vcard","rulers","cup-hot","clipboard2-pulse"];
+const COND_IC = ["heart-pulse","droplet-half","speedometer2","rulers","thermometer-half","gender-female","bandaid"];
+const TREAT_IC = ["flower1","card-checklist","bicycle","activity","stopwatch","soundwave","droplet","bar-chart-line","speedometer2"];
+const AMEN_IC = ["gender-female","gender-ambiguous","house-heart","p-circle","wallet2"];
+const telA = p => `<a href="tel:${p.tel}">${esc(p.show)}</a>`;
+const mapsUrl = () => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(CONFIG.mapQuery)}`;
+const chips = (arr,icons) => `<ul class="chips">${arr.map((x,i)=>`<li>${ic(icons[i])}<span>${esc(x)}</span></li>`).join("")}</ul>`;
+
+/* ---------- scoring ---------- */
+const lvIdx = p => p<25?0:p<45?1:p<65?2:3;
+function bmiOf(a){ const h=+a.height/100, w=+a.weight; return h>0&&w>0 ? w/(h*h) : 0; }
+function compute(a){
+  const bmi=bmiOf(a), wt=a.sex==="m"?90:80, w=+a.waist;
+  const bmiP = bmi<18.5?1 : bmi<23?0 : bmi<25?1 : bmi<30?2 : 3;
+  const wP = w>=wt+10?3 : w>=wt?2 : 0;
+  const P = {
+    activity:[3,2,1,0][a.activity], veg:[0,1,3][a.veg], fried:[0,1,3][a.fried],
+    tobacco:[0,1,3][a.tobacco], alcohol:[0,1,3][a.alcohol], sleep:[0,1,3][a.sleep], stress:[0,1,3][a.stress], family:[0,1,2][a.family]
+  };
+  const nc=(a.cond||[]).filter(i=>i!==4).length, ns=(a.sym||[]).filter(i=>i!==5).length;
+  const chest=(a.sym||[]).includes(0);
+  const raw = {
+    body:[bmiP+wP,6], activity:[P.activity,3], diet:[P.veg+P.fried,6], habits:[P.tobacco+P.alcohol,6],
+    mind:[P.sleep+P.stress,6], medical:[Math.min(nc,3)+P.family+(chest?3:Math.min(ns,2)),8]
+  };
+  const wts = {body:25,activity:15,diet:15,habits:15,mind:10,medical:20};
+  const cats={}; let tot=0;
+  for(const k in raw){ cats[k]=Math.round(raw[k][0]/raw[k][1]*100); tot+=cats[k]*wts[k]; }
+  const score=Math.round(tot/100); let level=lvIdx(score);
+  if(chest && level<2) level=2;
+  return { score, level, cats, flag:chest, bmi:+bmi.toFixed(1), waist:w };
+}
+
+/* ---------- views ---------- */
+function bar(){
+  const t=tt(), v=S.view, au=authed();
+  const cur=n=>v===n?' aria-current="page"':'';
+  return `<div class="bar-in">
+    <a class="brand" href="#home"><span class="logo">${ic("heart-pulse-fill")}</span><span><b>${esc(clinic())}</b>${esc(t.sub)}</span></a>
+    <nav class="links" aria-label="Main">
+      <a href="#home"${cur("home")}>${ic("house-door")} ${t.home}</a>
+      <a href="#audit"${cur("audit")}>${ic("clipboard2-pulse")} ${t.audit}</a>
+      ${au?`<a href="#dashboard"${cur("dashboard")}>${ic("bar-chart-line")} ${t.dash}</a><button data-act="logout">${ic("box-arrow-right")} ${t.logout}</button>`:`<a href="#login"${cur("login")}>${ic("shield-lock")} ${t.login}</a>`}
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button data-act="lang" data-v="en" aria-pressed="${S.lang==="en"}">EN</button>
+      <button data-act="lang" data-v="mr" aria-pressed="${S.lang==="mr"}">मराठी</button>
+    </div></div>`;
+}
+function doctorCard(){
+  const c=tt().clin;
+  return `<section class="card stack"><div class="doc"><div class="avatar">${ic("person-badge")}</div>
+    <div><h2>${esc(c.docName)}</h2><p class="muted">${esc(c.docRole)}</p></div></div>
+    <ul class="tags">${c.creds.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>
+    <ul class="info">
+      <li>${ico("award")}<div><span class="lbl">${c.expL}</span>${esc(c.yrs)}</div></li>
+      <li>${ico("patch-check")}<div><span class="lbl">${c.regL}</span>I-62951-A</div></li>
+      <li>${ico("translate")}<div><span class="lbl">${c.langsL}</span>${esc(c.langs)}</div></li>
+    </ul></section>`;
+}
+function services(){
+  const c=tt().clin;
+  return `<section class="card stack"><h3 class="hd">${ic("heart-pulse")} ${c.condH}</h3>${chips(c.conds,COND_IC)}</section>
+    <section class="card stack"><h3 class="hd">${ic("clipboard2-pulse")} ${c.treatH}</h3>${chips(c.treats,TREAT_IC)}</section>`;
+}
+function waCard(){
+  const t=tt(), c=t.clin, P=CONFIG.phones;
+  return `<section class="card stack"><h3 class="hd">${ic("hospital")} ${c.visitH}</h3>
+    <ul class="info">
+      <li>${ico("geo-alt")}<div><span class="lbl">${c.addrL}</span>${esc(c.addr)}</div></li>
+      <li>${ico("telephone")}<div><span class="lbl">${c.phoneL}</span>${P.map(telA).join("<br>")}</div></li>
+      <li>${ico("clock")}<div><span class="lbl">${c.hoursL}</span>${esc(c.hours)}<span class="note" style="display:block">${esc(c.hoursNote)}</span></div></li>
+      <li>${ico("star")}<div><span class="lbl">${c.ratingL}</span><span class="stars">${ic("star-fill")}${ic("star-fill")}${ic("star-fill")}${ic("star-fill")}${ic("star-half")}</span><b>4.8</b> / 5 · ${c.reviews}</div></li>
+    </ul>
+    <h3 class="hd" style="font-size:16px">${ic("stars")} ${c.amenH}</h3>${chips(c.amen,AMEN_IC)}
+    <div class="btns">
+      <a class="btn solid" href="tel:${P[0].tel}">${ic("telephone")} ${c.call}</a>
+      <a class="btn" href="${mapsUrl()}" target="_blank" rel="noopener">${ic("geo-alt")} ${c.directions}</a>
+    </div>
+    <a class="btn wa" href="${waLink(CONFIG.whatsapp,"")}" target="_blank" rel="noopener">${ic("whatsapp")} ${t.chatWa}</a></section>`;
+}
+function footer(){
+  const t=tt(), c=t.clin, P=CONFIG.phones;
+  return `<div class="foot-in"><b>${esc(clinic())}</b>
+    <p>${ic("geo-alt")}${esc(c.addr)}</p>
+    <p>${ic("telephone")}${P.map(telA).join(" · ")}</p>
+    <p>${ic("clock")}${esc(c.hours)}</p></div>`;
+}
+function home(){
+  const t=tt(), f=[["patch-check",t.f1],["clock",t.f2],["rulers",t.f3],["translate",t.f4]];
+  return `<div class="stack"><section class="card hero"><span class="eyebrow">${ic("heart-pulse-fill")} ${esc(t.clin.tag)}</span>
+    <h1>${t.title}</h1><p class="muted">${t.heroP}</p>
+    <div class="facts">${f.map(x=>`<span>${ic(x[0])}${x[1]}</span>`).join("")}</div>
+    <h3>${t.covers}</h3>
+    <ul class="checks">${Object.keys(t.cats).map(k=>`<li>${ic(CAT_IC[k])}<span>${t.cats[k]}</span></li>`).join("")}</ul>
+    <a class="btn solid" href="#audit" data-act="start">${ic("clipboard2-pulse")} ${t.start}</a>
+    <p class="note">${ic("shield-check")} ${API()?t.cloud.priv:t.privacy}</p></section>${doctorCard()}${services()}${waCard()}</div>`;
+}
+function numField(f,label){
+  return `<label class="q"><span class="t">${label}</span><input class="in" type="number" inputmode="decimal" data-f="${f}" value="${esc(S.a[f]??"")}"></label>`;
+}
+function choice(q,key,vals,labels){
+  const cur=S.a[key];
+  return `<div class="q"><span class="t">${esc(q)}</span><div class="opts" role="group">${labels.map((l,i)=>`<button type="button" class="opt" data-act="choice" data-q="${key}" data-v="${vals?vals[i]:i}" aria-pressed="${String(cur)===String(vals?vals[i]:i)}">${esc(l)}</button>`).join("")}</div></div>`;
+}
+function multi(key){
+  const Q=tt().q[key], cur=S.a[key]||[];
+  return `<div class="q"><span class="t">${esc(Q.t)}</span><div class="opts" role="group">${Q.o.map((l,i)=>`<button type="button" class="opt" data-act="multi" data-q="${key}" data-v="${i}" aria-pressed="${cur.includes(i)}">${esc(l)}</button>`).join("")}</div></div>`;
+}
+function bmiBox(){
+  const t=tt(), a=S.a, b=bmiOf(a);
+  if(!b) return `<div class="bmi"><div>${t.bmi}<b>–</b></div><div>${t.whtr}<b>–</b></div></div>`;
+  const ci=b<18.5?0:b<23?1:b<25?2:3, r=(+a.waist>0&&+a.height>0)?(a.waist/a.height).toFixed(2):"–";
+  return `<div class="bmi"><div>${t.bmi}<b>${b.toFixed(1)}</b>${t.bmiC[ci]}</div><div>${t.whtr}<b>${r}</b>${t.whtrNote}</div></div>`;
+}
+function audit(){
+  const t=tt(), q=t.q, s=S.step;
+  let body="";
+  if(s===0) body = `<label class="q"><span class="t">${t.name}</span><input class="in" type="text" data-f="name" autocomplete="name" value="${esc(S.a.name??"")}"></label>`
+    + numField("age",t.age)
+    + choice(t.sex,"sex",["f","m"],[t.female,t.male])
+    + `<label class="q"><span class="t">${t.phone}</span><input class="in" type="tel" inputmode="numeric" data-f="phone" autocomplete="tel" value="${esc(S.a.phone??"")}"></label>`;
+  if(s===1) body = numField("height",t.height)+numField("weight",t.weight)+numField("waist",t.waist)+`<div id="bmibox">${bmiBox()}</div>`;
+  if(s===2) body = ["activity","veg","fried","tobacco","alcohol","sleep","stress"].map(k=>choice(q[k].t,k,null,q[k].o)).join("");
+  if(s===3) body = multi("cond")+choice(q.family.t,"family",null,q.family.o)+multi("sym");
+  const titles=[t.s1,t.s2,t.s3,t.s4];
+  return `<div class="stack"><div class="prog"><div class="prog-top"><span>${t.step} ${s+1} ${t.of} 4</span><span>${titles[s]}</span></div>
+    <div class="dots">${[0,1,2,3].map(i=>`<i class="${i<=s?"on":""}"></i>`).join("")}</div></div>
+    <section class="card"><h2 class="hd" style="margin-bottom:12px">${ic(STEP_IC[s])} ${titles[s]}</h2>${body}</section>
+    ${S.err?`<div class="err" role="alert">${ic("exclamation-circle")}<span>${S.err}</span></div>`:""}
+    <div class="nav">${s>0?`<button class="btn" data-act="back">${ic("arrow-left")} ${t.back}</button>`:`<span></span>`}
+    <button class="btn solid" data-act="next">${s<3?`${t.next} ${ic("arrow-right")}`:`${ic("file-earmark-medical")} ${t.seeReport}`}</button></div>${s===3&&API()?`<p class="note">${ic("shield-check")} ${t.cloud.consent}</p>`:""}</div>`;
+}
+function catBars(cats){
+  const t=tt();
+  return Object.keys(t.cats).map(k=>{const p=cats[k],c=LK[lvIdx(p)];
+    return `<div class="brow ${c}"><div class="brow-top"><span>${ic(CAT_IC[k])} ${t.cats[k]}</span><span>${p}%</span></div><div class="track"><div class="fill" style="width:${p}%"></div></div></div>`}).join("");
+}
+function report(){
+  const t=tt(), r=S.rec;
+  if(!r) return `<div class="card stack"><p>${t.start}</p><a class="btn solid" href="#audit">${t.start}</a></div>`;
+  const c=LK[r.level];
+  const hi=Object.keys(r.cats).filter(k=>r.cats[k]>=34).sort((a,b)=>r.cats[b]-r.cats[a]);
+  const wa=waLink(CONFIG.whatsapp,t.wa(clinic(),r));
+  return `<div class="stack"><section class="card stack"><h2>${t.report}${r.name?` – ${esc(r.name)}`:""}</h2>
+    <div class="gauge-row"><div class="gauge ${c}" style="--p:${r.score};--c:var(--${c})"><div><b>${r.score}</b><small>/100</small></div></div>
+    <div class="stack" style="gap:6px"><span class="muted">${t.overall}</span><span class="lvl ${c}">${LV[S.lang][r.level]}</span>
+    <span class="muted">BMI ${r.bmi} · ${t.dAge} ${esc(r.age)}</span></div></div></section>
+    ${r.flag?`<div class="flag" role="alert">${ic("exclamation-triangle-fill")}<span>${t.flagT}</span></div>`:""}
+    <section class="card"><h3>${t.bodyScore}</h3>${catBars(r.cats)}</section>
+    <section class="card stack"><h3>${t.improve}</h3>
+    ${hi.length?`<ul class="tips">${hi.map(k=>`<li class="${LK[lvIdx(r.cats[k])]}" style="--c:var(--${LK[lvIdx(r.cats[k])]})"><b>${ic(CAT_IC[k])} ${t.cats[k]}</b>${t.tips[k]}</li>`).join("")}</ul>`:`<p>${t.good}</p>`}</section>
+    <p class="note">${ic("info-circle")} ${t.disc}</p>
+    <a class="btn wa noprint" href="${wa}" target="_blank" rel="noopener">${ic("whatsapp")} ${t.chatWa}</a>
+    <a class="btn noprint" href="tel:${CONFIG.phones[0].tel}">${ic("telephone")} ${t.clin.call}</a>
+    <div class="nav noprint"><button class="btn" data-act="restart">${ic("arrow-counterclockwise")} ${t.restart}</button><button class="btn" data-act="print">${ic("printer")} ${t.print}</button></div></div>`;
+}
+function loginView(){
+  const t=tt();
+  return `<div class="card stack login"><h2 class="hd">${ic("shield-lock")} ${t.loginH}</h2><p class="note">${t.loginNote}</p>
+    <form id="lf" autocomplete="on"><label class="q"><span class="t">${t.user}</span><input class="in" id="lu" type="text" autocomplete="username" autocapitalize="none"></label>
+    <label class="q"><span class="t">${t.pass}</span><div class="pw"><input class="in" id="lp" type="password" autocomplete="current-password"><button type="button" class="btn small" data-act="pw">${ic("eye")} ${t.show}</button></div></label>
+    ${S.loginErr?`<div class="err" role="alert" style="margin-top:10px">${ic("exclamation-circle")}<span>${S.loginErr}</span></div>`:""}
+    <button class="btn solid" type="submit" style="width:100%;margin-top:14px">${ic("box-arrow-in-right")} ${t.doLogin}</button></form></div>`;
+}
+function dashboard(){
+  const t=tt(), all=getAll();
+  const status=S.loading?`<div class="card"><p>${ic("arrow-repeat")} ${t.cloud.loading}</p></div>`:S.loadErr?`<div class="err" role="alert">${ic("exclamation-circle")}<span>${t.cloud.loadErr}</span></div>`:"";
+  const n=all.length, hiN=all.filter(r=>r.level>=2).length;
+  const avg=n?Math.round(all.reduce((s,r)=>s+r.score,0)/n):"–";
+  const bm=all.filter(r=>r.bmi>0), avgB=bm.length?(bm.reduce((s,r)=>s+r.bmi,0)/bm.length).toFixed(1):"–";
+  const cnt=[0,1,2,3].map(i=>all.filter(r=>r.level===i).length);
+  const q=S.q.trim().toLowerCase();
+  const rows=all.filter(r=>(S.filter==="all"||r.level===+S.filter)&&(!q||(r.name||"").toLowerCase().includes(q)||(r.phone||"").includes(q)));
+  const dfmt=ts=>new Date(ts).toLocaleDateString(S.lang==="mr"?"mr-IN":"en-IN",{day:"2-digit",month:"short",year:"numeric"});
+  const tbl=rows.length?`<div class="wrap"><table><thead><tr><th>${t.dDate}</th><th>${t.dName}</th><th>${t.dAge}</th><th>${t.dScore}</th><th>${t.dLevel}</th><th>${t.dAct}</th></tr></thead><tbody>`+
+    rows.map(r=>{const ph=(r.phone||"").replace(/\D/g,""), num=ph.length===10?"91"+ph:ph.length>=11?ph:"";
+      return `<tr><td>${dfmt(r.ts)}</td><td>${esc(r.name)}${r.sample?` <span class="note">(${t.sampleTag})</span>`:""}</td><td>${esc(r.age)}</td><td><b>${r.score}</b></td>
+      <td><span class="lvl ${LK[r.level]}">${LV[S.lang][r.level]}</span></td>
+      <td><div class="acts"><button class="btn small" data-act="view" data-id="${r.id}">${ic("eye")} ${t.view}</button>
+      ${num?`<a class="btn small" target="_blank" rel="noopener" href="${waLink(num,t.waFollow(clinic(),r))}">${ic("whatsapp")} ${t.follow}</a>`:""}
+      <button class="btn small danger" data-act="del" data-id="${r.id}">${ic("trash3")} ${t.del}</button></div></td></tr>`}).join("")+`</tbody></table></div>`
+    :`<div class="card"><p>${API()?t.cloud.none:t.none}</p></div>`;
+  const m=S.modal?all.find(r=>r.id===S.modal):null;
+  const modal=m?`<div class="modal" data-act="closeBg"><div class="sheet" role="dialog" aria-modal="true"><h3>${esc(m.name)} · ${m.score}/100</h3>
+    <span class="lvl ${LK[m.level]}" style="justify-self:start">${LV[S.lang][m.level]}</span>
+    <p class="muted">BMI ${m.bmi} · ${t.waist.split(" (")[0]} ${m.waist} cm · ${t.dAge} ${esc(m.age)}</p>${m.flag?`<div class="flag">${ic("exclamation-triangle-fill")}<span>${t.flagT}</span></div>`:""}${catBars(m.cats)}
+    <button class="btn" data-act="closeModal">${ic("x-lg")} ${t.close}</button></div></div>`:"";
+  return `<div class="stack"><h2 class="hd">${ic("bar-chart-line")} ${t.dashH}</h2>${status}
+    <div class="stats"><div class="stat">${ic("people")}<b>${n}</b><span>${t.total}</span></div><div class="stat">${ic("exclamation-triangle")}<b>${hiN}</b><span>${t.hi}</span></div><div class="stat">${ic("graph-up")}<b>${avg}</b><span>${t.avg}</span></div><div class="stat">${ic("speedometer2")}<b>${avgB}</b><span>${t.avgBmi}</span></div></div>
+    <section class="card"><h3>${t.levels}</h3>${[0,1,2,3].map(i=>`<div class="brow ${LK[i]}"><div class="brow-top"><span>${LV[S.lang][i]}</span><span>${cnt[i]}</span></div><div class="track"><div class="fill" style="width:${n?cnt[i]/n*100:0}%"></div></div></div>`).join("")}</section>
+    <h3>${t.recent}</h3>
+    <div class="tools"><input class="in" id="sq" type="search" placeholder="${t.search}" value="${esc(S.q)}">
+      <select class="in" id="sf" style="width:auto"><option value="all">${t.all}</option>${[0,1,2,3].map(i=>`<option value="${i}"${String(S.filter)===String(i)?" selected":""}>${LV[S.lang][i]}</option>`).join("")}</select></div>
+    ${S.loading&&!n?"":tbl}
+    <div class="tools"><button class="btn small" data-act="export">${ic("download")} ${t.exp}</button>${API()?`<button class="btn small" data-act="refresh">${ic("arrow-repeat")} ${t.cloud.refresh}</button>`:`<button class="btn small" data-act="sample">${ic("plus-circle")} ${t.sample}</button>`}<button class="btn small danger" data-act="clear">${ic("trash3")} ${t.clear}</button></div>
+    <p class="note">${ic("info-circle")} ${API()?t.cloud.stored:t.stored}</p>${modal}</div>`;
+}
+
+function render(){
+  document.documentElement.lang=S.lang;
+  document.getElementById("bar").innerHTML=bar();
+  const v=S.view, el=document.getElementById("app");
+  el.innerHTML = v==="audit"?audit() : v==="report"?report() : v==="login"?loginView() : v==="dashboard"?dashboard() : home();
+  document.getElementById("foot").innerHTML=footer();
+}
+function route(){
+  let h=(location.hash||"#home").slice(1);
+  if(!["home","audit","report","login","dashboard"].includes(h)) h="home";
+  if(h==="dashboard" && !authed()){ h="login"; history.replaceState(null,"","#login"); }
+  if(h==="login" && authed()){ h="dashboard"; history.replaceState(null,"","#dashboard"); }
+  S.view=h; S.err=""; S.loginErr=""; S.modal=null; render(); window.scrollTo(0,0);
+  if(h==="dashboard"&&API()) loadRemote();
+}
+window.addEventListener("hashchange",route);
+
+/* ---------- actions ---------- */
+function validate(s){
+  const a=S.a, n=x=>x!==undefined&&x!==""&&!isNaN(+x);
+  if(s===0) return (a.name||"").trim()&&n(a.age)&&a.age>=10&&a.age<=100&&a.sex ? "" : tt().e1;
+  if(s===1) return n(a.height)&&a.height>=100&&a.height<=220&&n(a.weight)&&a.weight>=25&&a.weight<=250&&n(a.waist)&&a.waist>=40&&a.waist<=200 ? "" : tt().e2;
+  if(s===2) return ["activity","veg","fried","tobacco","alcohol","sleep","stress"].every(k=>a[k]!==undefined) ? "" : tt().e3;
+  return a.cond.length&&a.sym.length&&a.family!==undefined ? "" : tt().e4;
+}
+function finish(){
+  const a=S.a, c=compute(a);
+  const rec={id:"r"+Date.now().toString(36)+Math.random().toString(36).slice(2,6), ts:Date.now(), name:a.name.trim(), age:+a.age, sex:a.sex, phone:(a.phone||"").trim(), ...c, lang:S.lang};
+  S.rec=rec; if(API()) submitRemote(rec); else { const all=load(); all.unshift(rec); save(all); }
+  location.hash="report";
+}
+function csv(){
+  const rows=[["id","date","name","age","sex","phone","bmi","waist_cm","score","level","chest_flag"]];
+  getAll().forEach(r=>rows.push([r.id,new Date(r.ts).toISOString().slice(0,10),r.name,r.age,r.sex,r.phone,r.bmi,r.waist,r.score,LV.en[r.level],r.flag?"yes":"no"]));
+  const txt=rows.map(r=>r.map(c=>`"${String(c??"").replace(/"/g,'""')}"`).join(",")).join("\r\n");
+  const a=document.createElement("a"); a.href=URL.createObjectURL(new Blob(["\ufeff"+txt],{type:"text/csv"})); a.download="health-checks.csv"; a.click();
+}
+function sampleData(){
+  const P=[
+   ["Sunita Patil",52,"f",156,71,92,[2,1,2,1,0,1,2],[0,1,2],1,[3],[1]],
+   ["Rahul Jadhav",44,"m",172,88,101,[3,2,2,2,1,2,2],[0,2],2,[0],[2]],
+   ["Anita Shinde",31,"f",160,54,70,[0,0,0,0,0,0,0],[4],0,[],[5]],
+   ["Prakash More",61,"m",168,79,98,[2,2,2,1,0,1,1],[0,1],2,[1],[0]],
+   ["Meena Kulkarni",38,"f",158,63,82,[1,1,1,0,0,1,1],[4],1,[],[5]],
+   ["Santosh Pawar",47,"m",175,95,106,[3,2,2,2,2,2,2],[0,1,2],2,[],[1,4]],
+   ["Kavita Deshmukh",29,"f",162,58,74,[0,0,1,0,0,0,1],[4],0,[],[5]],
+   ["Vijay Kadam",55,"m",170,82,96,[2,1,2,1,1,1,2],[0],1,[],[2]]
+  ];
+  const all=load(), now=Date.now();
+  P.forEach((p,i)=>{
+    const a={name:p[0],age:p[1],sex:p[2],height:p[3],weight:p[4],waist:p[5]};
+    const [ac,ve,fr,to,al,sl,st]=p[6];
+    Object.assign(a,{activity:ac,veg:ve,fried:fr,tobacco:to,alcohol:al,sleep:sl,stress:st,cond:p[7],family:p[8],sym:p[10]});
+    const c=compute(a);
+    all.push({id:"s"+i+Date.now().toString(36),ts:now-i*86400000*2,name:p[0],age:p[1],sex:p[2],phone:"",...c,lang:"en",sample:true});
+  });
+  all.sort((x,y)=>y.ts-x.ts); save(all);
+}
+async function sha256(s){
+  const b=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(s));
+  return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("");
+}
+async function doLogin(){
+  const t=tt(), u=document.getElementById("lu").value.trim(), p=document.getElementById("lp").value;
+  if(Date.now()<S.lockUntil){ S.loginErr=t.loginLock; return render(); }
+  if(API()){
+    try{
+      const r=await api("login",{user:u,pass:p});
+      if(r.ok){ try{ sessionStorage.setItem("dsk_tok",r.token); }catch(e){} S.fails=0; location.hash="dashboard"; return route(); }
+      S.loginErr = r.error==="locked" ? t.loginLock : t.loginErr;
+    }catch(e){ S.loginErr=t.cloud.loginNet; }
+    return render();
+  }
+  if(!(window.crypto&&crypto.subtle)){ S.loginErr=t.loginSec; return render(); }
+  const ok = u===CONFIG.user && (await sha256(p))===CONFIG.hash;
+  if(ok){ try{ sessionStorage.setItem("dsk_auth","1"); }catch(e){} S.fails=0; location.hash="dashboard"; route(); }
+  else{ S.fails++; if(S.fails>=5){ S.lockUntil=Date.now()+30000; S.fails=0; S.loginErr=t.loginLock; } else S.loginErr=t.loginErr; render(); }
+}
+
+document.addEventListener("click",e=>{
+  const el=e.target.closest("[data-act]"); if(!el) return;
+  const act=el.dataset.act, t=tt();
+  if(act==="closeBg"){ if(e.target!==el) return; S.modal=null; return render(); }
+  if(act==="lang"){ S.lang=el.dataset.v; try{ localStorage.setItem("dsk_lang",S.lang); }catch(x){} S.err=""; return render(); }
+  if(act==="start"){ S.a={cond:[],sym:[]}; S.step=0; return; }
+  if(act==="restart"){ S.a={cond:[],sym:[]}; S.step=0; S.rec=null; location.hash="audit"; return route(); }
+  if(act==="print") return window.print();
+  if(act==="choice"){
+    const k=el.dataset.q, v=el.dataset.v; S.a[k]= k==="sex"?v:+v;
+    el.parentElement.querySelectorAll(".opt").forEach(b=>b.setAttribute("aria-pressed",String(b===el))); return;
+  }
+  if(act==="multi"){
+    const k=el.dataset.q, v=+el.dataset.v, none=tt().q[k].o.length-1; let cur=S.a[k]||[];
+    if(v===none) cur=cur.includes(v)?[]:[v]; else { cur=cur.filter(i=>i!==none); cur=cur.includes(v)?cur.filter(i=>i!==v):[...cur,v]; }
+    S.a[k]=cur; el.parentElement.querySelectorAll(".opt").forEach(b=>b.setAttribute("aria-pressed",String(cur.includes(+b.dataset.v)))); return;
+  }
+  if(act==="next"){ const er=validate(S.step); S.err=er; if(er) return render(); if(S.step<3){ S.step++; render(); window.scrollTo(0,0);} else finish(); return; }
+  if(act==="back"){ S.err=""; S.step=Math.max(0,S.step-1); render(); window.scrollTo(0,0); return; }
+  if(act==="pw"){ const i=document.getElementById("lp"); const show=i.type==="password"; i.type=show?"text":"password"; el.innerHTML=ic(show?"eye-slash":"eye")+" "+(show?t.hide:t.show); return; }
+  if(act==="logout"){ if(API()){ api("logout",{token:tok()}).catch(()=>{}); try{ sessionStorage.removeItem("dsk_tok"); }catch(x){} S.records=[]; } try{ sessionStorage.removeItem("dsk_auth"); }catch(x){} location.hash="home"; return route(); }
+  if(act==="export") return csv();
+  if(act==="sample"){ sampleData(); return render(); }
+  if(act==="clear"){ if(confirm(t.confClear)){ if(API()){ remote("clear",{}).then(()=>{ S.records=[]; render(); }).catch(()=>{ if(S.view==="dashboard"){ S.loadErr=true; render(); } }); } else { save([]); render(); } } return; }
+  if(act==="refresh") return loadRemote();
+  if(act==="del"){ if(confirm(t.confDel)){ const id=el.dataset.id; if(API()){ remote("delete",{id}).then(()=>{ S.records=S.records.filter(x=>x.id!==id); render(); }).catch(()=>{ if(S.view==="dashboard"){ S.loadErr=true; render(); } }); } else { save(load().filter(r=>r.id!==id)); render(); } } return; }
+  if(act==="view"){ S.modal=el.dataset.id; return render(); }
+  if(act==="closeModal"){ S.modal=null; return render(); }
+});
+document.addEventListener("input",e=>{
+  const el=e.target;
+  if(el.dataset.f){ S.a[el.dataset.f]=el.value; if(S.step===1){ const b=document.getElementById("bmibox"); if(b) b.innerHTML=bmiBox(); } }
+  if(el.id==="sq"){ S.q=el.value; const p=el.selectionStart; render(); const n=document.getElementById("sq"); n.focus(); n.setSelectionRange(p,p); }
+});
+document.addEventListener("change",e=>{ if(e.target.id==="sf"){ S.filter=e.target.value; render(); } });
+document.addEventListener("submit",e=>{ if(e.target.id==="lf"){ e.preventDefault(); doLogin(); } });
+
+flushQueue();
+route();
+</script>
+</body>
+</html>
